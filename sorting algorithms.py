@@ -227,28 +227,28 @@ def main():
         end_time = time.time()
         total_time_bucket = end_time - start_time
 
-        print(f"Average Time taken for Bubble Sort: {1000000 * total_time_bubble:.4f} microseconds")
+        print(f"Time taken for Bubble Sort: {1000000 * total_time_bubble:.4f} microseconds")
         print("Bubble Sorted Array:", bubble_sort(arr))
 
-        print(f"\nAverage Time taken for Quick Sort: {1000000 * total_time_quick:.4f} microseconds")
+        print(f"\nTime taken for Quick Sort: {1000000 * total_time_quick:.4f} microseconds")
         print("Quick Sorted Array:", quick_sort(arr2, 0, len(arr2) - 1))
 
-        print(f"\nAverage Time taken for Insertion Sort: {1000000 * total_time_insertion:.4f} microseconds")
+        print(f"\nTime taken for Insertion Sort: {1000000 * total_time_insertion:.4f} microseconds")
         print("Insertion Sorted Array:", insertion_sort(arr3))
 
-        print(f"\nAverage Time taken for Merge Sort: {1000000 * total_time_merge:.4f} microseconds")
+        print(f"\nTime taken for Merge Sort: {1000000 * total_time_merge:.4f} microseconds")
         print("Merge Sorted Array:", merge_Sort(arr4))
 
-        print(f"\nAverage Time taken for Heap Sort: {1000000 * total_time_heap:.4f} microseconds")
+        print(f"\nTime taken for Heap Sort: {1000000 * total_time_heap:.4f} microseconds")
         print("Heap Sorted Array:", heapSort(arr5))
 
-        print(f"\nAverage Time taken for Counting Sort: {1000000 * total_time_counting:.4f} microseconds")
+        print(f"\nTime taken for Counting Sort: {1000000 * total_time_counting:.4f} microseconds")
         print("Counting Sorted Array:", countingSort(arr6, 1))
 
-        print(f"\nAverage Time taken for Radix Sort: {1000000 * total_time_radix:.4f} microseconds")
+        print(f"\nTime taken for Radix Sort: {1000000 * total_time_radix:.4f} microseconds")
         print("Radix Sorted Array:", radixSort(arr7))
 
-        print(f"\nAverage Time taken for Bucket Sort: {1000000 * total_time_bucket:.4f} microseconds")
+        print(f"\nTime taken for Bucket Sort: {1000000 * total_time_bucket:.4f} microseconds")
         print("Bucket Sorted Array:", bucketSort(arr8))
 
 
